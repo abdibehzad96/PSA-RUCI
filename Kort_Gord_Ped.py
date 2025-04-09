@@ -5,9 +5,11 @@ from utilz.utils import *
 from torch.utils.data import DataLoader
 from models.PedETA import *
 import torch.optim as optim
-scratch = True
+
+
 Kort_Gord_or_sinD = 'Kort_Gord'
-scratch = False
+scratch = True
+# scratch = False
 SaveModel = True  # check if we should save the model or not
 Loadmodel = False # Load the pre-trained model
 IgnoreDataLoader = True

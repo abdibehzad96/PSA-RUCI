@@ -10,7 +10,7 @@ from models.model import *
 import time
 Kort_Gord_or_sinD = 'Kort_Gord'
 scratch = True
-scratch = False
+# scratch = False
 SaveModel = True  # check if we should save the model or not
 Loadmodel = False # Load the pre-trained model
 IgnoreDataLoader = True
